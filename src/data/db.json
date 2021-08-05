@@ -1,0 +1,295 @@
+{
+    "general-menu": [
+        {
+            "display":"short",
+            "title":"Veg pizza", 
+            "catName":"VegPizza",
+            "imageSource":"menu/vegpizza.jpg",
+            "desc":"A delight for veggie lovers! Choose from our wide range of delicious vegetarian pizzas, it's softer and tastier"
+        },
+        {
+            "display":"short", 
+            "title":"Non veg pizza",
+            "catName":"NonVegPizza",
+            "imageSource": "menu/nonveg.jpg",
+            "desc":"Choose your favourite non-veg pizzas from the Domino's Pizza menu. Get fresh non-veg pizza at your doorstep"
+        },
+        {
+            "display":"short",
+            "title":"pizza mania",
+            "catName":"PizzaMania",
+            "imageSource":"menu/pizzamania.png",
+            "desc":"Indulge into mouth-watering taste of Pizza mania range, perfect answer to all your food cravings"
+        },
+        {
+            "display":"short",
+            "title":"sides & Bevaerages",
+            "catName":"SidesAndBeverages",
+            "imageSource":"menu/sides-beverages.jpg",
+            "desc":"Complement your pizza with wide range of sides & beverages available at pirai's Pizza India"
+        }
+    ],
+    "Veg pizza":[
+        {
+            "id":1,
+            "display":"brief",
+            "title":"Margherita",
+            "IsBestSeller":true,
+            "imageSource":"vegpizza/Margherita.jpg",
+            "desc":"A hugely popular margherita, with a deliciously tangy single cheese topping",
+            "o_image":"/margherita.jpg",
+            "o_desc":"Classic delight with 100% real mozzarella cheese",
+            "o_price":199
+        },
+        
+        {
+            "id":2,
+            "display":"brief",
+            "title":"Farm House",
+            "IsBestSeller":true,
+            "imageSource":"vegpizza/Farmhouse.jpg",
+            "desc":"A pizza that goes ballistic on veggies! Check out this mouth watering overload of crunchy, crisp capsicum, succulent mushrooms and fresh tomatoes",
+            "o_image":"/farmhouse.jpg",
+            "o_desc":"Delightful combination of onion, capsicum, tomato & grilled mushroom",
+            "o_price":149
+
+        },
+        {
+            "id":3,
+            "display":"brief",
+            "title":"Double Cheese Margherita",
+            "IsBestSeller":true,
+            "imageSource":"vegpizza/Double_Cheese_Margherita.jpg",
+            "desc":"The ever-popular Margherita - loaded with extra cheese... oodies of it!",
+            "o_image":"/farmhouse.jpg",
+            "o_desc":"Delightful combination of onion, capsicum, tomato & grilled mushroom",
+            "o_price":139
+        },
+        {
+            "id":4,
+            "display":"brief",
+            "title":"Peppy Paneer",
+            "imageSource":"vegpizza/Peppy_Paneer.jpg",
+            "desc":"Chunky paneer with crisp capsicum and spicy red pepper - quite a mouthful!",
+            "o_image":"/peppy_paneer.jpg",
+            "o_desc":"Flavorful trio of juicy paneer, crisp capsicum with spicy red paprika",
+            "o_price":229
+        },
+        {
+            "id":5,
+            "display":"brief",
+            "title":"Mexican Green Wave",
+            "imageSource":"vegpizza/Mexican_Green_Wave.jpg",
+            "desc":"A pizza loaded with crunchy onions, crisp capsicum, juicy tomatoes and jalapeno with a liberal sprinkling of exotic Mexican herbs.",
+            "o_image":"/mexican_green_wave.jpg",
+            "o_desc":"Mexican herbs sprinkled on onion, capsicum, tomato & jalapeno",
+            "o_price":399
+        },
+        {
+            "id":6,
+            "display":"brief",
+            "title":"Veggie Paradise",
+            "imageSource":"vegpizza/Digital_Veggie_Paradise.jpg",
+            "desc":"Goldern Corn, Black Olives, Capsicum & Red Paprika",
+            "o_image":"/veggie_paradise.jpg",
+            "o_desc":"The awesome foursome! Golden corn, black olives, capsicum, red paprika",
+            "o_price":399
+        }
+
+    ],
+    "Non veg pizza":[
+        {
+            "id":7,
+            "display":"brief",
+            "title":"PEPPER BARBECUE CHICKEN",
+            "IsBestSeller":true,
+            "imageSource":"NonVegPizza/Pepper_Barbeque.jpg",
+            "desc":"Pepper Barbecue Chicken I Cheese",
+            "o_image":"/margherita.jpg",
+            "o_desc":"Classic delight with 100% real mozzarella cheese",
+            "o_price":199
+        },
+        {
+            "id":8,
+            "display":"brief",
+            "IsBestSeller":true,
+            "title":"CHICKEN SAUSAGE",
+            "imageSource":"NonVegPizza/chicken_sausage.jpg",
+            "desc":"Chicken Sausage I Cheese",
+            "o_image":"/margherita.jpg",
+            "o_desc":"Classic delight with 100% real mozzarella cheese",
+            "o_price":229
+        },
+        {
+            "id":9,
+            "display":"brief",
+            "title":"Chicken Golden Delight",
+            "imageSource":"NonVegPizza/Chicken_Golden_Delight.jpg",
+            "desc":"Mmm! Barbeque chicken with a topping of golden corn loaded with extra cheese. Worth its weight in gold!",
+            "o_image":"/margherita.jpg",
+            "o_desc":"Classic delight with 100% real mozzarella cheese",
+            "o_price":299
+        },
+        {
+            "id":10,
+            "display":"brief",
+            "title":"Non Veg Supreme",
+            "imageSource":"NonVegPizza/Non_Veg_Supreme.jpg",
+            "desc":"Bite into supreme delight of Black Olives, Onions, Grilled Mushrooms, Pepper BBQ Chicken, Peri-Peri Chicken, Grilled Chicken Rashers",
+            "o_image":"/margherita.jpg",
+            "o_desc":"Classic delight with 100% real mozzarella cheese",
+            "o_price":349
+        },
+        {
+            "id":11,
+            "display":"brief",
+            "title":"Chicken Dominator",
+            "IsBestSeller":true,
+            "imageSource":"NonVegPizza/Dominator.jpg",
+            "desc":"Treat your taste buds with Double Pepper Barbecue Chicken, Peri-Peri Chicken, Chicken Tikka & Grilled Chicken Rashers",
+            "o_image":"/margherita.jpg",
+            "o_desc":"Classic delight with 100% real mozzarella cheese",
+            "o_price":219
+        },
+        {
+            "id":12,
+            "display":"brief",
+            "title":"PEPPER BARBECUE & ONION",
+            "imageSource":"NonVegPizza/Pepper_Barbeque.jpg",
+            "desc":"Pepper Barbecue Chicken I Onion",
+            "o_image":"/margherita.jpg",
+            "o_desc":"Classic delight with 100% real mozzarella cheese",
+            "o_price":319
+        }
+    ],
+    "pizza mania":[
+        {
+            "id":13,
+            "display":"brief",
+            "title":"Margherita",
+            "imageSource":"vegpizza/Margherita.jpg",
+            "desc":"A hugely popular margherita, with a deliciously tangy single cheese topping",
+            "o_image":"/margherita.jpg",
+            "o_desc":"Classic delight with 100% real mozzarella cheese",
+            "o_price":219
+
+        },
+        
+        {
+            "id":14,
+            "display":"brief",
+            "title":"Farm House",
+            "imageSource":"vegpizza/Farmhouse.jpg",
+            "desc":"A pizza that goes ballistic on veggies! Check out this mouth watering overload of crunchy, crisp capsicum, succulent mushrooms and fresh tomatoes",
+            "o_image":"/margherita.jpg",
+            "o_desc":"Classic delight with 100% real mozzarella cheese",
+            "o_price":149
+        },
+        {
+            "id":15,
+            "display":"brief",
+            "title":"Double Cheese Margherita",
+            "imageSource":"vegpizza/Double_Cheese_Margherita.jpg",
+            "desc":"The ever-popular Margherita - loaded with extra cheese... oodies of it!",
+            "o_image":"/margherita.jpg",
+            "o_desc":"Classic delight with 100% real mozzarella cheese",
+            "o_price":159
+        },
+        {
+            "id":16,
+            "display":"brief",
+            "title":"Peppy Paneer",
+            "imageSource":"vegpizza/Peppy_Paneer.jpg",
+            "desc":"Chunky paneer with crisp capsicum and spicy red pepper - quite a mouthful!",
+            "o_image":"/margherita.jpg",
+            "o_desc":"Classic delight with 100% real mozzarella cheese",
+            "o_price":99
+        },
+        {
+            "id":17,
+            "display":"brief",
+            "title":"Mexican Green Wave",
+            "imageSource":"vegpizza/Mexican_Green_Wave.jpg",
+            "desc":"A pizza loaded with crunchy onions, crisp capsicum, juicy tomatoes and jalapeno with a liberal sprinkling of exotic Mexican herbs.",
+            "o_image":"/margherita.jpg",
+            "o_desc":"Classic delight with 100% real mozzarella cheese",
+            "o_price":99
+        },
+        {
+            "id":18,
+            "display":"brief",
+            "title":"Veggie Paradise",
+            "imageSource":"vegpizza/Digital_Veggie_Paradise.jpg",
+            "desc":"Goldern Corn, Black Olives, Capsicum & Red Paprika",
+            "o_image":"/margherita.jpg",
+            "o_desc":"Classic delight with 100% real mozzarella cheese",
+            "o_price":99
+        }
+
+    ],
+    "sides & Bevaerages":[
+        {
+            "id":19,
+            "display":"brief",
+            "title":"Margherita",
+            "imageSource":"vegpizza/Margherita.jpg",
+            "desc":"A hugely popular margherita, with a deliciously tangy single cheese topping",
+            "o_image":"/margherita.jpg",
+            "o_desc":"Classic delight with 100% real mozzarella cheese",
+            "o_price":99
+        },
+        
+        {
+            "id":20,
+            "display":"brief",
+            "title":"Farm House",
+            "imageSource":"vegpizza/Farmhouse.jpg",
+            "desc":"A pizza that goes ballistic on veggies! Check out this mouth watering overload of crunchy, crisp capsicum, succulent mushrooms and fresh tomatoes",
+            "o_image":"/margherita.jpg",
+            "o_desc":"Classic delight with 100% real mozzarella cheese",
+            "o_price":99
+        },
+        {
+            "id":21,
+            "display":"brief",
+            "title":"Double Cheese Margherita",
+            "imageSource":"vegpizza/Double_Cheese_Margherita.jpg",
+            "desc":"The ever-popular Margherita - loaded with extra cheese... oodies of it!",
+            "o_image":"/margherita.jpg",
+            "o_desc":"Classic delight with 100% real mozzarella cheese",
+            "o_price":99
+        },
+        {
+            "id":22,
+            "display":"brief",
+            "title":"Peppy Paneer",
+            "imageSource":"vegpizza/Peppy_Paneer.jpg",
+            "desc":"Chunky paneer with crisp capsicum and spicy red pepper - quite a mouthful!",
+            "o_image":"/margherita.jpg",
+            "o_desc":"Classic delight with 100% real mozzarella cheese",
+            "o_price":99
+        },
+        {
+            "id":23,
+            "display":"brief",
+            "title":"Mexican Green Wave",
+            "imageSource":"vegpizza/Mexican_Green_Wave.jpg",
+            "desc":"A pizza loaded with crunchy onions, crisp capsicum, juicy tomatoes and jalapeno with a liberal sprinkling of exotic Mexican herbs.",
+            "o_image":"/margherita.jpg",
+            "o_desc":"Classic delight with 100% real mozzarella cheese",
+            "o_price":99
+        },
+        {
+            "id":24,
+            "display":"brief",
+            "title":"Veggie Paradise",
+            "imageSource":"vegpizza/Digital_Veggie_Paradise.jpg",
+            "desc":"Goldern Corn, Black Olives, Capsicum & Red Paprika",
+            "o_image":"/margherita.jpg",
+            "o_desc":"Classic delight with 100% real mozzarella cheese",
+            "o_price":99
+        }
+
+    ]
+    
+}

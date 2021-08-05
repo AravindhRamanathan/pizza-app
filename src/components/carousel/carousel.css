@@ -1,0 +1,16 @@
+.rec.rec-dot_active{
+    background-color:red;
+    box-shadow:0 0 5px 2px #F41313
+}
+.rec.rec-dot_active:focus{
+    box-shadow: 0 0 5px 2px#F4AE9C;
+}
+.rec.rec-arrow-right:hover:enabled, .rec.rec-arrow-right:focus:enabled{
+    background-color:#e61a39;
+}
+.rec.rec-arrow-left:hover:enabled, .rec.rec-arrow-left:focus:enabled{
+    background: #095c91;
+}
+.carousel-div{
+    padding-top:50px;
+}

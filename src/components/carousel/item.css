@@ -1,0 +1,21 @@
+.carousel-image{
+    width:900px;
+    height:300px;
+    position: relative  ;
+    margin-left:25px;
+    margin-right:25px;
+}
+
+.carousel-image>img{
+    width:100%;
+    object-fit: contain
+}
+.carousel-image>p{
+    background-color:none;
+    position:absolute;
+    left:80px;
+    top:150px;
+    color:rgb(255, 255, 255);
+    font-size:40px;
+    width:50%;
+}

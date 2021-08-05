@@ -1,0 +1,38 @@
+.sideBarElements{
+    background-color:white;
+    width:500px;
+    opacity:3 !important;
+    color:black;
+    height:700px;
+    position:fixed;
+    padding:20px;
+    background-color: rgb(248, 247, 252);
+    border:2px solid blue;
+
+}
+.desc-customze-img{
+    position:relative;
+}
+.desc-customze-img>img{
+    width:100%;
+}
+.close-icon{
+    padding:10px;
+    position:absolute;
+    /* align-self: flex-end; */
+    top:0px;
+    left:470px;
+}
+.pizza-rupee-sidebar{
+    left:20px;
+    top:150px;
+    color:black;
+    position: absolute;
+    color:white;
+    font-size:20px;
+    font-weight:700;
+}
+.pizza-title-sidebar{
+    padding:20px;
+    background-color:rgb(221, 221, 248);
+}

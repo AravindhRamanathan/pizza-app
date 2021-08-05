@@ -1,0 +1,88 @@
+.pizza-banner{
+    width:300px;
+    height:400px;
+    /* border:1px solid blue; */
+    background-color: #fff;
+    /* margin-top:50px; */
+}
+.pizza-image{
+    width:300px;
+    position: relative;
+}
+.pizza-image>img{
+    height:150px;
+    width:100%;
+}
+.pizza-rupee{
+    top:110px;
+    left:10px;
+    background-color:rgba(83, 80, 80, 0.548);
+    color:white;
+    font-size:18px;
+    font-weight: 700;
+    position: absolute;
+}
+.pizza-customize{
+    top:105px;
+    left:200px;
+    /* justify-self: right; */
+    position: absolute;
+    padding:5px;
+    border-radius:10px;
+    border:none;
+    cursor:pointer;
+}
+
+.pizza-title>p{
+    font-size:15px;
+    margin-bottom:10px;
+}
+.pizza-desc{
+    opacity:0.8 !important ;
+    margin-bottom: 15px !important;;
+}
+.select-div{
+    margin-top:20px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    /* background-color:blue; */
+    /* border:1px solid black; */
+    padding:10px;
+}
+.left-select{
+    display: inline-block;
+}
+.pizza-type-select,.pizza-crust-select{
+    border:none;
+    border-bottom: 1px solid rgb(197, 191, 191);
+}
+.pizza-overview-desc{
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* height:220px; */
+}
+.pizza-type-select:focus,.pizza-crust-select{
+    outline:none;
+}
+.right-select{
+    display: inline-block;
+}
+.pizza-item-button{
+    margin-top:20px;;
+    display: flex;
+    /* width:50%; */
+    margin-right:0px;
+    margin-left:auto;
+}
+.pizza-item-button>button{
+    padding:5px;
+    border-radius:2px;
+    border:1px solid green;;
+    background-color: white;
+    color:green;
+    font-weight:600;
+    cursor:pointer;
+}

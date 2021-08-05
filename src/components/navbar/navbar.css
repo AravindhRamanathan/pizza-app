@@ -1,0 +1,74 @@
+.navbar{
+    height:80px;
+    width:100%;
+    position:sticky;
+    top:0;
+    z-index:1;
+    /* background-color:rgb(150, 203, 238); */
+
+    background-color: #095c91;;
+    
+}
+.active{
+    /* color:red !important;
+    font-weight:600 !important;
+    border-bottom: 2px solid black;; */
+    /* background-color: #e61a39; */
+    border-bottom: 3px solid white;;
+    color:white;
+    height:100%;
+}
+.navbarElements{
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbarLogoImage{
+    /* padding:10px; */
+    height:50px;
+    width:200px;
+}
+.navLinks{
+    width: 70%;;
+}
+.navLinks-ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-transform: uppercase;
+}
+.list{
+    display: flex;
+    flex-wrap:nowrap;
+    padding:5px;
+    color:white;
+    font-family:ProximaNova,Arial,Helvetica Neue,sans-serif;
+    font-size:18px;
+    font-weight:500;
+    cursor: pointer;
+}
+.list:hover{
+    /* color:red; */
+    color:white;
+    font-weight: 800;
+    transform: scaleY(1.5);
+    transform: scaleX(1);
+}
+.list3-div{
+   position:relative !important;
+}
+.list3-span{
+    margin-right:5px;
+}
+.cart-number{
+    color:white;
+    position:absolute !important;
+    top:-18px;
+    left:75px;
+    background-color:red;
+    border-radius:50%;;
+    font-size:15px;
+    padding:5px;
+}
+

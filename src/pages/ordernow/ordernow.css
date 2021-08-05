@@ -1,0 +1,161 @@
+.orderNowElements{
+    display:flex;
+    flex-direction: row;
+    padding:50px;
+    z-index:-999;
+}
+.show-side-bar{
+    display: flex;
+    width:100%;
+    /* border:5px solid orange; */
+    left:-150%;
+    position:fixed;
+    height:100vh;
+    z-index:100;
+    /* visibility: hidden; */
+    transition:850ms;
+
+    /* opacity:0.8; */
+}
+.show-side-bar.active{
+    left:0%;
+    transition:350ms;
+}
+.on-menuItems{
+    
+    flex:9;
+}
+.on-cart{
+    /* padding:10px; */
+    padding-left:20px;
+    flex-direction: column;
+    flex:3;
+    display: flex;
+    top:80px;
+    overflow:hidden;
+    position:sticky;
+    height:700px;
+    /* justify-content: center;
+    align-items: center; */
+}
+/* .on-horizontalLine{
+    padding:10px;
+    margin-top:30px;
+}
+.on-horizontalLine>hr{
+    width:100%;
+    height:2px;
+    background-color: rgb(121, 113, 113);;
+    opacity:0.5;
+    position:relative;
+}
+.catBar{
+    display: inline-block;
+    background-color: white;
+    padding:15px;
+    border:none;
+    border-radius: 25px;
+    margin-top:-35px;
+    margin-left:30px;
+    position:absolute;
+} */
+.pizza-banner-div{
+    display: flex;
+    margin-top:50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.ad-banner{
+    justify-content: center;;
+    width:300px;
+    /* padding:20px; */
+    /* border:1px solid black; */
+}
+.ad-banner>img{
+    height:150px;
+    /* border:1px solid black; */
+    width:100%;
+    object-fit: contain;
+}
+.vaccination-button{
+    display: flex;
+    width:100%;
+    /* border:1px solid black; */
+    /* border:1px solid black;; */
+    justify-content: space-between;;
+}
+.vaccination-button>button{
+    width:50%;
+    padding:10px;
+    color:white;
+    font-size:16px;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    
+}
+.i-am-vaccinated{
+    background-color:green;
+    margin-right:5px;
+}
+.planned-to-vaccinate{
+    background-color: orange;;
+}
+
+.on-empty-cart-banner{
+    margin-top:20px;
+    /* border:1px solid black; */
+    width:250px;
+    height:350px;;
+    padding-left:20px;
+    overflow: auto;
+    padding-right: 20px;;
+    background: url("/src/pages/ordernow/ordernow_empty_cart.png");
+    background-repeat: no-repeat;
+    background-color:white;
+    background-position-x: right;
+    background-position-y: top;
+    display: flex;
+    flex-direction: column;
+    
+    /* align-items: center; */
+}
+.cart-banner{
+    margin-top:20px;
+    /* border:1px solid black; */
+    width:300px;
+    height:350px;;
+    padding:5px;
+    padding-right: 20px;;
+    overflow:auto;
+    overflow-x:hidden;
+    background-color:white;
+    /* display: flex;
+    flex-direction: column; */
+}
+.cart-banner-text{
+    margin-top:20px;
+    /* border:1px solid black; */
+    width:250px;
+    height:350px;;
+    padding-left:20px;
+    overflow: auto;
+    padding-right: 20px;;
+    display: flex;
+    flex-direction: column;
+}
+.on-cart-banner-text{
+    margin-top:100%;;
+    display: block;
+    font-size:20px;
+    color:darkgray;
+    text-transform: uppercase;
+    font-weight:600;
+    opacity:0.8;
+}
+.on-caption-text{
+    font-weight: 400;
+    opacity: 0.8;
+}
+

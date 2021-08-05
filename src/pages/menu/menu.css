@@ -1,0 +1,18 @@
+
+.menuHeader{
+    padding-top:15px;
+    text-align: center;
+    text-transform: uppercase;
+    color:#e61a39;
+}
+
+.menuList{
+    margin-top:25px;
+    padding-bottom:15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap:15px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    justify-content: center;
+}
