@@ -1,3 +1,15 @@
+# Pizza App has its own carousel menu
+![Screenshot (23)](https://user-images.githubusercontent.com/52904438/128324052-45577971-d24c-4c22-895a-75a8c62a7df7.png)
+# Menu page includes list of items and descriptive menus of a seperate item
+![Screenshot (27)](https://user-images.githubusercontent.com/52904438/128325583-66415ae7-a988-496d-999f-344fe6384f70.png)
+
+# Order Now page includes the list of best sellers and list of types of food items
+![Screenshot (25)](https://user-images.githubusercontent.com/52904438/128324520-f7828d44-569d-49c0-80dc-615a265db38d.png)
+
+
+# Cart page includes the Cart Item Lists
+![Screenshot (26)](https://user-images.githubusercontent.com/52904438/128325130-8e2e62f4-8800-436a-a2e3-18cfc607e46d.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
